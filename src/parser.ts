@@ -292,12 +292,12 @@ export function parseProgram(tokens: Token[]): AstNode[] {
         left,
         // 5.2. A property that represents the operator of the multiplicative expression.
         // TODO: YOUR CODE HERE
-        // 5.3. A property that represents the right operator of the multiplicative expression.
+        // 5.3. A property that represents the right operand of the multiplicative expression.
         right,
         // 5.4. A property `nodeType` which is (???what???).
         nodeType: /* TODO: YOUR CODE HERE */,
       };
-    // 2.2. Make an iteration of the loop to process the possible remaining part of the multiplicative expression.
+    // 2.2. Make an iteration of the loop to process the possible remaining part of the addition-like expression.
     }
     // 5.5. Return the AST node.
     return left;

@@ -156,7 +156,7 @@ export function parseProgram(tokens: Token[]): AstNode[] {
         // 3.1.3.1.3. Property `nodeType` should be `PhysicalUnit`
 
         // TODO: YOUR CODE HERE
-        };
+        
       // 3.1.4. Otherwise, if that value is one of the (???what???) units, then:
       } else if (/* TODO: YOUR CODE HERE */) {
         // TODO: YOUR CODE HERE
